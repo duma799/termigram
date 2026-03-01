@@ -1,0 +1,15 @@
+[project]
+name = "termigram"
+version = "0.1.0"
+description = "A beautiful Telegram TUI client"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "textual>=1.0.0",
+    "telethon>=1.37",
+    "python-dotenv>=1.0.0",
+    "qrcode[pil]>=8.2",
+]
+
+[project.scripts]
+termigram = "termigram.__main__:main"

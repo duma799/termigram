@@ -1,0 +1,132 @@
+Screen {
+    background: #0e1117;
+    color: #c9d1d9;
+}
+
+#sidebar {
+    width: 35;
+    min-width: 28;
+    max-width: 45;
+    background: #161b22;
+    border-right: solid #30363d;
+}
+
+#chat-list-header {
+    height: 3;
+    padding: 1 2;
+    text-style: bold;
+    color: #58a6ff;
+    background: #161b22;
+    border-bottom: solid #30363d;
+}
+
+#chat-listview {
+    height: 1fr;
+    background: #161b22;
+}
+
+.chat-item-inner {
+    height: auto;
+    padding: 0 1;
+}
+
+.chat-item-top {
+    height: 1;
+    color: #e6edf3;
+}
+
+.chat-item-preview {
+    height: 1;
+    color: #8b949e;
+}
+
+ListItem {
+    height: auto;
+    padding: 1 1;
+    background: #161b22;
+}
+
+ListItem:hover {
+    background: #1c2128;
+}
+
+ListView > ListItem.-highlight {
+    background: #1f6feb33;
+}
+
+#main-pane {
+    width: 1fr;
+    background: #0d1117;
+}
+
+#message-view {
+    height: 1fr;
+}
+
+#msg-placeholder {
+    width: 100%;
+    height: 100%;
+    content-align: center middle;
+    color: #484f58;
+    text-style: italic;
+}
+
+#msg-scroll {
+    height: 1fr;
+    padding: 1 2;
+    background: #0d1117;
+}
+
+MessageBubble {
+    height: auto;
+    margin: 0 0 1 0;
+    padding: 0 2;
+    max-width: 75%;
+}
+
+.msg-in {
+    background: #161b22;
+    border: round #30363d;
+    margin-right: 10;
+}
+
+.msg-out {
+    background: #0d419d;
+    border: round #1f6feb;
+    margin-left: 10;
+}
+
+.msg-sender {
+    color: #58a6ff;
+    text-style: bold;
+    height: 1;
+}
+
+.msg-text {
+    color: #e6edf3;
+    height: auto;
+}
+
+.msg-time {
+    color: #484f58;
+    text-align: right;
+    height: 1;
+}
+
+#message-input {
+    height: auto;
+    dock: bottom;
+    padding: 1 2;
+    background: #161b22;
+    border-top: solid #30363d;
+}
+
+#msg-input {
+    background: #0d1117;
+    color: #e6edf3;
+    border: round #30363d;
+}
+
+#msg-input:focus {
+    border: round #58a6ff;
+}
